@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4496e7eaeb8196e468aa524156b138d4, type: 3}
+  m_Name: ExampleScene
+  m_EditorClassIdentifier: 
+  sceneSummary: "During a heavy rainstorm, a valuable family pocket watch disappears
+    from the locked cabinet. \r\n    NPCs perceive fragments of the event: movement,
+    metallic sounds, shadows, and disturbances in the room. \r\n    Lila Finch, the
+    maid, deliberately takes the watch while trying to avoid detection. \r\n    Violet
+    Quill, the visiting writer, notices movement and sounds but cannot identify the
+    cause. \r\n    Barnaby Lock, the butler, sees partial activity but initially
+    assumes nothing serious is happening. \r\n    Each character holds incomplete
+    information, possible misinterpretations, and subtle behavioral cues.\r\n\r\n 
+    events:\r\n    - order: 1\r\n      description: Lila Finch quietly enters the
+    library, approaching the locked cabinet.\r\n    - order: 2\r\n      description:
+    Lila unlocks the cabinet using a key borrowed from Barnaby days earlier.\r\n   
+    - order: 3\r\n      description: The pocket watch slips from her hands into her
+    apron when a branch strikes the window.\r\n    - order: 4\r\n      description:
+    Violet Quill, by the fireplace, notices movement and hears a faint metallic jingle
+    but cannot identify it.\r\n    - order: 5\r\n      description: Barnaby Lock
+    walks by the slightly open door, sees Lila moving near the cabinet, and briefly
+    observes Violet.\r\n    - order: 6\r\n      description: Lila hides the watch
+    and pretends to straighten the cabinet; all three characters now have partial
+    knowledge."
+  locationName: A small, dimly-lit library in an old manor. Dark wooden shelves filled
+    with books.        Fireplace in the corner glowing weakly. Heavy curtains half-drawn.
+    Locked glass cabinet on the wall.        Worn carpet on the floor. Constant sound
+    of rain with drops sliding down the windows. Shadows stretch across the room
+    as the fire flickers.
+  people:
+  - id: violet_quill
+    displayName: Ms. Violet Quill
+    role: Invited writer, accidental witness
+    shortDescription: "deeper_info:\r\n        age: 32\r\n        occupation: Writer
+      and occasional amateur sleuth\r\n        personality_traits: Curious, observant,
+      cautious, overthinks situations\r\n        motivations: Wants to appear competent,
+      solve mysteries, avoid embarrassment\r\n        background: Often visits the
+      manor for literary research; known for noticing small details\r\n        tendencies:
+      Hesitates before acting, prefers observation over confrontation\r\n       
+      relationships: Friendly but cautious with staff; respectful of authority figures\r\n     
+      perception_and_cognition:\r\n        sight: Dark silhouette near the cabinet
+      (possibly a shadow, servant, or object)\r\n        sound: Faint metallic jingle;
+      rustle of clothing; branch hitting window\r\n        knowledge: Cabinet should
+      be locked; watch is valuable; no one allowed to touch it\r\n        tentative_suspicions:
+      Someone approached the cabinet; possibly a servant\r\n        behavior_cues:
+      Hesitant, overthinks, tries to appear insightful\r\n      opinions:\r\n       
+      barnaby_lock: \"He seems calm, but maybe too hesitant to act. I think he notices
+      more than he lets on.\"\r\n        lila_finch: \"She looks nervous and jittery;
+      I\u2019m not sure if she\u2019s hiding something.\"\r\n      memories:\r\n       
+      - \"I remember seeing Lila near the cabinet earlier tonight.\"\r\n        -
+      \"Barnaby opened the door briefly but didn\u2019t intervene.\""
+  - id: barnaby_lock
+    displayName: Mr. Barnaby Lock
+    role: Butler, responsible for order, indirect witness
+    shortDescription: "deeper_info:\r\n        age: 48\r\n        occupation: Butler
+      and household manager\r\n        personality_traits: Responsible, protective,
+      disciplined, cautious, loyal\r\n        motivations: Maintain household order,
+      protect staff, avoid scandals\r\n        background: Lifelong servant of the
+      family; experienced in subtle management of staff and visitors\r\n        tendencies:
+      Observant but rarely confrontational; weighs consequences before acting\r\n       
+      relationships: Protective toward staff, respectful toward visitors, holds mild
+      suspicion toward mischievous staff\r\n      perception_and_cognition:\r\n       
+      sight: Lila near the cabinet, moving quickly; Violet by the fireplace\r\n       
+      sound: Faint metallic sound; rain; soft rustling\r\n        knowledge: Watch
+      location and value; Lila has been nervous lately\r\n        tentative_suspicions:
+      Likely Lila; hopes he\u2019s mistaken\r\n        behavior_cues: Calm exterior,
+      internal tension, protective\r\n      opinions:\r\n        violet_quill: \"She
+      notices small details but overthinks everything. A careful observer.\"\r\n       
+      lila_finch: \"She\u2019s usually honest but restless. Might make mistakes under
+      pressure.\"\r\n      memories:\r\n        - \"I lent Lila a key to the cabinet
+      a few days ago.\"\r\n        - \"I saw Lila fidgeting near the cabinet tonight.\""
+  - id: lila_finch
+    displayName: Miss Lila Finch
+    role: Maid, culprit
+    shortDescription: "deeper_info:\r\n        age: 24\r\n        occupation: Maid\r\n       
+      personality_traits: Nervous, opportunistic, quick-thinking, secretive\r\n       
+      motivations: Solve personal financial problems, avoid getting caught, maintain
+      a facade of obedience\r\n        background: Works in the manor for a year;
+      known to occasionally bend rules for personal gain\r\n        tendencies: Fidgets,
+      avoids eye contact when guilty, mutters under breath, improvises under pressure\r\n       
+      relationships: Wary of visitors, slightly distrustful of other staff; generally
+      tries to appear loyal\r\n      perception_and_cognition:\r\n        sight:
+      Cabinet, own shaking hands, shadows; figure by fireplace misidentified as shadow\r\n       
+      sound: Branch hitting window; watch chain clinking; footsteps; door creak\r\n       
+      knowledge: Watch is valuable; it will be noticed missing; suspicion likely
+      to fall on servants\r\n        tentative_suspicions: Someone may have seen
+      her; fears discovery\r\n        behavior_cues: Fidgety, avoids eye contact,
+      mutters, hides actions\r\n      opinions:\r\n        violet_quill: \"She might
+      notice more than I want her to. I hope she doesn\u2019t see me.\"\r\n       
+      barnaby_lock: \"He watches too closely, but maybe he suspects nothing.\"\r\n     
+      memories:\r\n        - \"I took the watch and hid it in my apron.\"\r\n       
+      - \"I heard a branch hit the window and got startled.\""
